@@ -1,0 +1,25 @@
+def neto():
+    print('Ingresar categoria')
+    categoria=input()
+    neto=0
+    if(categoria=='gerente'):
+        neto=15000
+    else:        
+        neto=20000
+    print(neto)
+
+def bonoXResultado():
+    print('Ingresar tipo de bono por resultados')
+    tipoDeBono=input()
+    
+    if(tipoDeBono=='porcentaje'):
+        tipoDeBono==neto%10
+        print(porcentaje)
+    if(tipoDeBono=='montoFijo'):
+        print(neto+800)
+    
+    
+def main():
+    neto()
+    bonoXResultado()
+
